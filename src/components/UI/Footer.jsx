@@ -15,128 +15,90 @@ export default function Footer() {
   return (
     <div
       name="Contact Us"
-      className="w-full px-4 py-16 bg-black text-white text-center"
+      className="w-full px-4 pt-16 bg-black text-white text-center"
     >
       <h1>Register Now</h1>
       <div className="py-4">
         <input
-          className="p-3 rounded-3xl mr-4"
+          className="p-3 px-8 rounded-3xl mr-4 min-w-[400px] text-black"
           type="email"
           placeholder="Enter your email"
         />
         <button>Sign Up</button>
       </div>
-      <div className="flex items-center justify-center py-2 ">
+      <div className="flex items-center justify-center py-2 mb-8">
         <input className="mr-2 " type="checkbox" />
         <p>Yes, I agree to receive email updates from SPEC.</p>
       </div>
-      <div className="md:flex justify-center gap-5 lg:gap-40 mt-5 font-sans">
-        <div className=" md:visible flex justify-center mb-2">
-          <a
-            href="https://specnith.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm md:text-lg md:font-bold text-white hover:text-gray-300 "
-          >
+      
+<footer className="p-4 sm:p-6">
+    <div className="md:flex md:justify-between">
+        <div className="mb-6 md:mb-0">
+            <a href="https://specnith.com/" className="flex items-center">
             <picture>
               <source srcSet={logo} type="image/webp" />
-              <img className="w-8 md:w-16" src={logo} alt="spec_logo" />
+              <img className="w-16 md:w-32" src={logo} alt="spec_logo" />
             </picture>
-          </a>
-        </div>
-        <div className=" flex justify-center mb-4">
-          <ul>
-            <li className=" text-white font-medium text-sm md:text-lg flex justify-center md:justify-start pb-2">
-              RESOURCES
-            </li>
-            <li>
-              <a
-                href="https://drive.google.com/file/d/1P_-npMEWQtOUAWnuJH66aK5h7sCxSgRy/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex justify-center md:justify-start text-sm md:md:text-sm text-gray-400 pb-2 hover:text-gray-300"
-              >
-                Sponsorship Brochure
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex justify-center md:justify-start text-sm md:md:text-sm text-gray-400 pb-2 hover:text-gray-300"
-              >
-                Code of Conduct
-              </a>{" "}
-            </li>
-          </ul>
-        </div>
-        <div className="text-white flex text-sm md:text-lg justify-center mb-4 ">
-          <ul>
-            <li className="text-white font-medium flex justify-center md:justify-start pb-2 ">
-              ADDRESS
-            </li>
-            <li className=" md:text-sm flex justify-center md:justify-start pb-2 text-gray-400 hover:text-gray-300">
-              <a
-                href="https://www.google.com/maps/place/NIT+Hamirpur/@31.6750134,76.5271587,13z/data=!4m8!1m2!2m1!1sNIT+Hamirpur,+Himachal+Pradesh,+India!3m4!1s0x3904d5487e12c4a1:0x395f92d3a202a7d0!8m2!3d31.708371!4d76.527356"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                NIT Hamirpur
-              </a>
-            </li>
-            <li className=" md:text-sm flex justify-center md:justify-start pb-2 text-gray-400">
-              Hamirpur, Himachal Pradesh, India
-            </li>
-            <li className=" md:text-sm flex justify-center md:justify-start text-gray-400">
-              177005
-            </li>
-          </ul>
-        </div>
-        <div className="">
-          <div className="flex justify-center md:justify-start text-sm md:text-lg font-medium  text-white pb-2">
-            STAY CONNECTED
-          </div>
-
-          <div className="justify-center flex space-x-2 md:space-x-5 mt-1 md:mt-1 opacity-80 mb-10">
-            <a
-              href="https://discord.gg/cjMMRs7tHs"
-              rel="noreferrer noopenor"
-              target="_blank"
-            >
-              <FontAwesomeIcon
-                className="text-1xl md:text-2xl text-blue-800 fill-current"
-                icon={faDiscord}
-              />
+                <span className="self-center text-4xl font-semibold whitespace-nowrap dark:text-white">Electrothon</span>
             </a>
-            <a
-              href="https://www.facebook.com/spec.ece/"
-              rel="noreferrer noopenor"
-              target="_blank"
-            >
-              <FontAwesomeIcon
-                className="text-1xl md:text-2xl text-blue-600 fill-current"
+        </div>
+        <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+        <div>
+                <h2 className="mb-6 text-lg font-semibold text-gray-900 uppercase dark:text-white">Address</h2>
+                <ul className="text-gray-600 dark:text-gray-400">
+                    <li className="">
+                        <a href="https://www.google.com/maps/place/NIT+Hamirpur/@31.6750134,76.5271587,13z/data=!4m8!1m2!2m1!1sNIT+Hamirpur,+Himachal+Pradesh,+India!3m4!1s0x3904d5487e12c4a1:0x395f92d3a202a7d0!8m2!3d31.708371!4d76.527356" className="hover:underline ">NIT Hamirpur<br />Hamirpur, Himachal Pradesh, India <br /> 177005</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div>
+                <h2 className="mb-6 text-lg font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                <ul className="text-gray-600 dark:text-gray-400">
+                    <li className="">
+                        <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" className="hover:underline"> Code of Conduct</a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1P_-npMEWQtOUAWnuJH66aK5h7sCxSgRy/view?usp=sharing"
+ className="hover:underline">Sponsorship Brochure</a>
+                    </li>
+                </ul>
+            </div>
+         
+            <div>
+                <h2 className="mb-6 text-lg font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                <ul className="text-gray-600 dark:text-gray-400">
+                    <li className="">
+                        <a href="/" className="hover:underline">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="/" className="hover:underline">Terms &amp; Conditions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <div className="sm:flex sm:items-center sm:justify-between">
+        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://specnith.com/" className="hover:underline">SPEC</a>. All Rights Reserved.
+        </span>
+        <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+            <a href="https://www.facebook.com/spec.ece/" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+            <FontAwesomeIcon
+                className="w-5 h-5  fill-current text-gray-500 hover:text-gray-900 dark:hover:text-white"
                 icon={faFacebook}
               />
             </a>
-            <a
-              href="https://twitter.com/SPEC__NITH"
-              rel="noreferrer noopenor"
-              target="_blank"
-            >
-              <FontAwesomeIcon
-                className="text-1xl md:text-2xl text-blue-300 fill-current"
-                icon={faTwitter}
+            <a href="https://instagram.com/s.p.e.c_nith?utm_source=ig_profile_share&amp;igshid=1dd01jvv7xk83" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+            <FontAwesomeIcon
+                className="w-5 h-5  fill-current text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                icon={faInstagram}
               />
             </a>
-            <a
-              href="https://instagram.com/s.p.e.c_nith?utm_source=ig_profile_share&amp;igshid=1dd01jvv7xk83"
-              rel="noreferrer noopenor"
-              target="_blank"
-            >
-              <FontAwesomeIcon
-                className="text-1xl md:text-2xl text-pink-600 fill-current"
-                icon={faInstagram}
+            <a href="https://twitter.com/SPEC__NITH" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+            <FontAwesomeIcon
+                className="w-5 h-5  fill-current text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                icon={faTwitter}
               />
             </a>
             <a
@@ -145,16 +107,15 @@ export default function Footer() {
               target="_blank"
             >
               <FontAwesomeIcon
-                className="text-1xl md:text-2xl text-blue-500 fill-current"
+                className="w-5 h-5  fill-current text-gray-500 hover:text-gray-900 dark:hover:text-white"
                 icon={faLinkedin}
               />
-            </a>
-          </div>
+              </a>
+     
         </div>
-      </div>
-      <div className="text-sm flex justify-center pb-2 text-gray-400">
-        © 2022, SPEC NITH
-      </div>
+    </div>
+</footer>
+
     </div>
   );
 }

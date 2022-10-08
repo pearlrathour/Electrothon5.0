@@ -19,9 +19,9 @@ function App() {
       <DevApi />
 
       <Milestones />
-      <Prizes />
+      {/* <Prizes /> */}
 
-      <Speakers />
+      {/* <Speakers /> */}
 
       <Sponsers />
       <Accordion />

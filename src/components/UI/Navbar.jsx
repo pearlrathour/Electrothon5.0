@@ -42,7 +42,7 @@ export default function Navbar() {
                 CONTACT US
               </Link>
             </li>
-            <button className="  ml-4 bg-gradient-to-r from-[#9ff4d1] via-[#75c2f2] to-[#00d8ff] ... py-3 px-10  rounded-3xl text-[#8092b2]  ">
+            <button className="  ml-4 bg-gradient-to-r from-[#9ff4d1] via-[#75c2f2] to-[#00d8ff] ... py-3 px-10  rounded-3xl text-black  ">
               Register Now
             </button>
           </ul>

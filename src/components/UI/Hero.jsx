@@ -20,7 +20,7 @@ export default function Hero() {
           <br /> yourself in a worldwide hackathon"
         </p>
         <div>
-          <button className="m-2">SEARCH | PLAN | ENGAGE | CREATE </button>
+          <button className="m-2 text-[#063068]">SEARCH | PLAN | ENGAGE | CREATE </button>
         </div>
       </div>
       <div>
