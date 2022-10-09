@@ -13,7 +13,7 @@ export default function Example() {
   };
 
   return (
-    <div className="w-full bg-black text-white text-center">
+    <div className="w-full bg-black text-white text-center px-12 lg:px-20">
       <Fragment>
         <h1>Commonly Asked Questions</h1>
         <br />

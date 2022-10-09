@@ -61,7 +61,7 @@ const Milestones = () => {
   ];
 
   return (
-    <div className="w-full bg-black text-white text-center">
+    <div className="w-full px-10 lg:px-20 bg-black text-white text-center">
       <h1>Milestones</h1>
       <br />
       <br />
@@ -78,14 +78,14 @@ const Milestones = () => {
         ))}
       </div>
 
-      <div className="flex flex-col lg:flex-row items-center justify-around gap-6">
+      {/* <div className="flex flex-col lg:flex-row items-center justify-around gap-6">
         {companies.map(({ id, icon, title }) => (
           <div className="flex items-center capitalize p-4 rounded-lg" key={id}>
             {icon}
             <p className="ml-2">{title}</p>
           </div>
         ))}
-      </div>
+      </div> */}
       <br />
       <br />
       <br />

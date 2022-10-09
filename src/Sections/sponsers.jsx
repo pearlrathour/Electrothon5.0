@@ -5,7 +5,7 @@ export default function Sponsers() {
   return (
     <div
       name="platforms"
-      className="w-full px-4 py-16 bg-black text-white text-center 
+      className="w-full px-10 md:px-20 py-16 bg-black text-white text-center 
      "
     >
       <div className="max-w-[1240px] mx-auto px-2">

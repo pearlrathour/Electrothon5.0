@@ -8,7 +8,7 @@ import PageSection from "./PageSection";
 export default function About() {
   return (
     <div name="about" className="w-full bg-black text-white text-center">
-      <div className="max-w-[1240px] mx-auto px-4 py-16 ">
+      <div className="w-full mx-auto px-10 lg:px-20 py-16 ">
         <div>
           <div className="mt-3 bg-black text-white text-center">
             <PageSection
@@ -46,7 +46,7 @@ export default function About() {
             </PageSection>
           </div>
           {/* Card Container */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 ">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 ">
             {/* Card */}
             <AboutCard
               icon={<SiHiveBlockchain size={40} />}
