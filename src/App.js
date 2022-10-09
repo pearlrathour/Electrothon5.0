@@ -10,6 +10,7 @@ import Milestones from "./Sections/milestones";
 import Speakers from "./Sections/speakers";
 import Accordion from "./Sections/faq";
 import DevApi from "./Sections/about";
+import Timeline from "./Sections/timeline";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <DevApi />
 
       <Milestones />
+      <Timeline />
       {/* <Prizes /> */}
 
       {/* <Speakers /> */}
