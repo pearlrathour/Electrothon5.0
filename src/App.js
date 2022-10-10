@@ -5,11 +5,13 @@ import Hero from "./components/UI/Hero";
 import Navbar from "./components/UI/Navbar";
 import About from "./Sections/about";
 import Prizes from "./Sections/prizes";
-import Sponsers from "./Sections/sponsers";
+
 import Milestones from "./Sections/milestones";
 import Speakers from "./Sections/speakers";
 import Accordion from "./Sections/faq";
 import DevApi from "./Sections/about";
+import Timeline from "./Sections/timeline";
+import Sponsers from "./Sections/Sponsors/Sponsors";
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <DevApi />
 
       <Milestones />
+      <Timeline />
       {/* <Prizes /> */}
 
       {/* <Speakers /> */}
